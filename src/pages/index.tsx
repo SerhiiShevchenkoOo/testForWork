@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '@/components/header/'
 import logo from '@/assets/images/logo.png'
-import '@/index.scss'
+import '@/index.css'
 
 export default function src(): JSX.Element {
 	return (
