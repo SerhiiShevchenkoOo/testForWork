@@ -4,10 +4,12 @@
 		"ecmaVersion": 2018,
 		"sourceType": "module"
 	},
-	"plugins": ["@typescript-eslint", "react-hooks"],
+	"plugins": ["react-hooks"],
 	"extends": [
 		"plugin:react/recommended",
-		"plugin:@typescript-eslint/recommended"
+		"plugin:prettier/recommended",
+		"prettier"
+		//	"plugin:@typescript-eslint/recommended"
 	],
 	"rules": {
 		"react-hooks/rules-of-hooks": "error",

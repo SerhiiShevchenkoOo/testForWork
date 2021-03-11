@@ -5,6 +5,7 @@
 		"@babel/preset-typescript"
 	],
 	"plugins": [
+		"syntax-dynamic-import",
 		[
 			"@babel/plugin-transform-runtime",
 			{
