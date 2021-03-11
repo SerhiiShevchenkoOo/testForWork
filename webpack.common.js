@@ -3,7 +3,7 @@ const ESLintPlugin = require('eslint-webpack-plugin')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-	entry: './src/index.tsx',
+	entry: './src/index.jsx',
 	output: {
 		filename: '[name].bundle.js',
 		path: path.join(__dirname, 'dist'),
